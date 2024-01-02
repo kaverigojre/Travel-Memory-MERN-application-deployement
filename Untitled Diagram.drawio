@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T17:18:34.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.16" etag="JJZ0lLlKPVDRQ0yPJo_s" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T17:50:24.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="mbyk_pc87F4xsS_so82G" version="22.1.16" type="github">
   <diagram name="Page-1" id="3R48YCL4sQ0zRlTg1M3v">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="paBCx87MTHXa-68E3ne0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.682;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-4" target="paBCx87MTHXa-68E3ne0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-4" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.588;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-6" target="paBCx87MTHXa-68E3ne0-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="238" />
+              <mxPoint x="650" y="260" />
+              <mxPoint x="660" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="555" y="50" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-7" target="paBCx87MTHXa-68E3ne0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-7" value="Frontend App&amp;nbsp;&lt;br&gt;(nodejs+ Nginx)&amp;nbsp;&lt;br&gt;+SSL with certbot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-8" target="paBCx87MTHXa-68E3ne0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-8" value="Nginx SSL&amp;nbsp;&lt;br&gt;Reverse Proxy&lt;br&gt;(Port 80 open)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-9" target="paBCx87MTHXa-68E3ne0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-9" value="Domain registrar + DNS records&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-10" target="paBCx87MTHXa-68E3ne0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-10" value="Cloudflare (CDN + WEB security + DNS records)&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="670" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-11" value="Client device &lt;br&gt;(Web Server)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="790" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-13" value="Security group &lt;br&gt;(port 3000 open)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-15" target="paBCx87MTHXa-68E3ne0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-15" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Nodejs Backend&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+Express App&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+APIs&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-16" value="AWS EC2 Instances&lt;br&gt;(Backend Server)&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-17" value="AWS EC2 Instances" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-18" value="(Frontend Server)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.508;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="paBCx87MTHXa-68E3ne0-21" target="paBCx87MTHXa-68E3ne0-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-24" value="&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Nginx&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+Git repo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+Static files&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-25" value="Security group&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(port 3000 open)&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-26" value="Mongo DB Atlas&lt;br&gt;(MongoDB database)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=35;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="565" y="140" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-28" value="MongoDB Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paBCx87MTHXa-68E3ne0-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
